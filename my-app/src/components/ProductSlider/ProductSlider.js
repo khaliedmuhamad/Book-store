@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductSlider.css"
 import Slider from "react-slick";
-import { ProductCard } from "./ProductCard/ProductCard";
+import { ProductCard } from "../ProductCard/ProductCard";
 
 export const ProductSlider = () => {
   const data = [
