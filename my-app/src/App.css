@@ -1,0 +1,20 @@
+:root
+.light{
+    --main:#ee434c;
+    --sec: #213d5c;
+    --tha:#faf8fd;
+    --sea:#a6b3c5;
+
+  }
+.dark{
+    --main:#434cee;
+    --sec: #213d5c;
+    --tha:#faf8fd;
+    --sea:#ebeef2;
+    height: 4000px;
+    --bgc: rgb(23, 23, 23);
+}
+* {font-family: 'Baloo Tammudu 2', cursive;}
+body{
+  overflow-x: hidden !important;
+}

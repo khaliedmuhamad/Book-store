@@ -1,0 +1,32 @@
+.slick-list{
+height: 100%;
+}
+ .slick-arrow{
+   height: 100%;
+   background: var(--main);
+   opacity: .1;
+   width: 5%;
+   transition: opacity .15s ease;
+   border-radius: 25px;
+ }
+ .slick-arrow:hover,
+ .slick-arrow:active,
+ .slick-arrow:focus
+ {
+   opacity: .2 !important;
+   background-color: var(--main);
+ }
+ .slick-arrow:active,
+ .slick-arrow:focus
+ {
+   opacity: .3 !important;
+   background-color: var(--main);
+ }
+ .slick-arrow:nth-of-type(1){
+   left: -8%;
+   background: linear-gradient(to left,#fff,#0000002a);
+ }
+ .slick-arrow:nth-of-type(2){
+   right: -8%;
+   background: linear-gradient(to right,#fff,#0000002a);
+ }

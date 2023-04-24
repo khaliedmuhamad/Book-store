@@ -83,7 +83,6 @@ font-weight: 400;
     margin-left: 32px;
     margin-top: 2.2%;
     color: var(--main);
-
 }
 /* end header */
 
@@ -116,8 +115,6 @@ font-weight: 400;
     font-weight: 100;
     line-height: 1.5;
     color: var(--sec);
-
-
 
 }
 /* button */
@@ -197,7 +194,6 @@ transition:background 0.2s ease-in;
 /*h3 */
 .features .container div h3{
     color: var(--sec);
-
 }
 /* paar */
 .features .container div p{

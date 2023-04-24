@@ -1,0 +1,70 @@
+.product-img-overlay{
+    width: 100%;
+    height: 320px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.419);
+}
+.product-img-overlay .product-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    object-fit: cover;
+ }
+.product-card{
+    padding-top: 1.5rem;
+}
+ /* name boook */
+.product-card h4 {
+    
+     font-size: 1.2rem;
+    height: 36px;
+     
+     color: var(--sec);
+ }
+ /* writer */
+ .product-card h5{
+    font-size: 1.1rem;
+    color: var(--sea);
+ }
+ /* price */ 
+ .product-card span.price{
+    font-size: 1.5rem;
+    color: var(--sec);
+ }
+ .button-group button {
+    font-size: 18px;
+    line-height: 18px;
+ }
+ .button-group button p{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: auto;
+    margin-bottom:-7px;
+    
+ }
+ [data-styles="hover-button"]:hover div{
+    background:#fffae9;
+    color:#8c7300
+ }
+
+
+ button[data-styles="loveDefault"] div
+ {
+   background:#ebf5fb;
+   color:#2e8dd3
+ }
+ button[data-styles="cartDefault"] div
+ {
+   background:#ebf1fb;
+      color:#00009e
+ }
+ button[data-styles="loveAdded"] div
+ {
+   background:#fee9ee;
+   color:#c40025
+ }
+ button[data-styles="cartAdded"] div
+ {
+   background:#e8fffc;
+   color:#006e58
+ }

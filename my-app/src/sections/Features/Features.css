@@ -1,0 +1,19 @@
+.features .card{
+    filter: opacity(0.9);
+    background-color: #faf8fd;
+    border: 1px solid #faf8fda4;
+    border-radius:12px ;
+    box-shadow: 0 0 6px #f8f4ff;
+}
+.features .card:hover{
+    filter: opacity(1);
+    transform: scale(1.1);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.features h4{
+    color: var(--sec);
+}
+/* paar */
+.features p{
+    color: var(--sea);
+}

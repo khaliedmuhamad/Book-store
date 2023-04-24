@@ -1,0 +1,87 @@
+.Header{
+    width: 100vw;
+    height: 710px;
+    background:linear-gradient(to bottom,var(--tha),#fdfdfd);
+    border: none;
+    box-shadow: none;
+    
+}
+
+
+/* button */
+.contect-header button{
+    vertical-align: center;
+    margin-top: 5rem;
+    height: 3.1rem;
+    font-size:1.5rem ;
+    line-height: 1.5rem;
+    border: 1px solid #faaaa7;
+    background-color: var(--main);
+    padding:1.2rem 2.5rem ;
+    border-radius:15px ;
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 6px var(--main);
+}
+.contect-header button:hover{
+    color: rgb(255, 255, 255);
+
+cursor: pointer;
+background-color: #ee434cd0;
+transition:background 0.2s ease-in;
+}
+
+.contect-header button:active
+{
+    background-color: var(--main);
+    transform: scale(0.99);
+}
+.contect-header h2{
+    margin:10% 0 0 0;
+    font-size:40px ;
+    font-weight: 600;
+    line-height: 2;
+    color: var(--sec);
+
+}
+/*h3*/
+.contect-header h3{
+    margin:5% 0 0 0;
+    font-size:25px ;
+    font-weight: 100;
+    line-height: 1.5;
+    color: var(--sec);
+
+}
+
+.carousel-indicators  #points{
+    background: #ee424b9a;
+    width: 10px ;
+    height: 10px ;
+    border: 0;
+    margin:0 0.5rem ;
+    padding: 0;
+    border-radius: 50%;
+}
+.carousel-indicators  #points.active{
+    background: #ee424b;
+    transition:background 0.5s linear ;
+}
+.Header .carousel-control-next,.Header .carousel-control-prev { 
+    color: #e91e6252;
+}
+.Header .carousel-control-next:hover,.Header .carousel-control-prev:hover { 
+    color: #e91e62ee;
+
+}
+.Header .carousel-control-next:hover span,.Header .carousel-control-prev:hover span{ 
+
+    transform: scale(1.5);
+    transition: all 0.25s linear;
+}
+.Header .carousel-control-prev { 
+
+    background: linear-gradient(to left,var(--tha),#e91e6214);
+}
+.Header .carousel-control-next{ 
+    background: linear-gradient(to right,var(--tha),#e91e6214);
+}

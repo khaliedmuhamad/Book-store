@@ -1,0 +1,49 @@
+.navbar-brand.custom{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: var(--sec);
+    
+}
+.navbar-brand span{
+    color: var(--main);
+}
+
+
+.nav.custom{
+    font-size: 1rem !important;
+    font-weight: 400;
+    }
+.nav.custom li{
+    line-height: 1.5rem;
+    border-bottom: 2px solid #ffffff00;
+        border-radius: 1.5px;
+        color: var(--sea);
+        transition: all ease-in-out 0.25s;
+    }
+    .nav.custom li:visited{
+        color: blue;
+    
+    }
+    .nav.custom li:hover{
+        border-bottom: 2px solid #ee434c;
+        color: var(--sec);
+       cursor: pointer;
+    }
+    .nav.custom  a{
+        color: var(--sea);
+    }
+    .nav.custom  a:hover{ 
+           color: var(--sec);
+    }
+
+   .cart a.icon{
+        font-size: 25px;
+        color: var(--main);
+    }
+   .cart a.icon:hover,
+   .cart a.icon.show
+   {
+        font-size: 25px;
+        color: var(--main);
+        opacity: 0.80;
+    }
